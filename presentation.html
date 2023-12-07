@@ -10,44 +10,202 @@
 
 <body>
     <header>
-        <div class="logo">
-            <a href="/Index.html">
-                <h1 class="title_site">Nexus fusion 2</h1>
-            </a>
-        </div>
-        <div class="part_right">
-            <nav class="header_nav">
-                <ul>
-                    <li><a href="/index.html">Accueil</a></li>
-                    <li><a href="/PAGES/map.html">Map</a></li>
-                    <li><a href="/presentation.html">Présentation</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1 href="/Index.html" target="_blank">Nexus fusion 2</h1>
+        <nav>
+            <ul>
+                <li><a href="#first_page">First page</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#captain">Notions and tools</a></li>
+                <li><a href="#port_agents">Solution</a></li>
+                <li><a href="#port_agents">Conclusion</a></li>
+            </ul>
+        </nav>
     </header>
-    <hr>
     <main>
-        <div class="first page">
+        <section class="hero" id="first_page">
+            <h2 class="Welcome">Web Fundamentals</h2>
+            <p>Dive into the universe of the web, where it all begins: Web Fundamentals. A fascinating journey through
+                history, technologies, and the endless possibilities that today’s web offers.</p>
+        </section>
 
-        </div>
-        <div class="notion_and_tools">
-            <div class="html">
+        <section class="services">
+            <h2>Table of contents</h2>
+            <div id="contain">
+                <ul>
+                    <li>
+                        <img src="/Ressources/PICTURES/palm_tree.png" alt="Operators">
+                        <h3>Introduction</h3>
+                        <p>
+                            Problem situation, key words, issues, approach and assumptions
+                        </p>
+                    </li>
+                    <li>
+                        <img src="/Ressources/PICTURES/russian_dolls_statues.png" alt="Captains">
+                        <h3>Notions & tools</h3>
+                        <p>
+                            What we’ll learn and which tool will use
+                        </p>
+                    </li>
+                    <li>
+                        <img src="/Ressources/PICTURES/waterfall.png" alt="Port agents">
+                        <h3>Solution</h3>
+                        <p>Web Fundamentals come to life to solve real problems and create exceptional digital
+                            experiences.</p>
+                    </li>
+                    <li>
+                        <img src="/Ressources/PICTURES/cave_entrance.png" alt="Port agents">
+                        <h3>Conclusion</h3>
+                        <p>Web fundamentals are the key that opens a world of possibilities. Thanks to them, we are able
+                            not only to understand, but also to shape the future of the Web.</p>
+                    </li>
+                </ul>
 
-            </div>
-            <div class="css">
+                <!-- For operator -->
+                <section id="introduction">
+                    <h2>Introduction</h2>
+                    <div class="int1">
+                        <h1 class="title1">Problem situation</h1>
+                        <div class="container">
+                            <div class="illustration_operator">
+                                <img src="/img/maritime_traffic_surveillance.jpg" alt="Illustration of introduction"
+                                    height="500px" style="width: 100%;">
+                            </div>
+                            <div class="content_operator">
+                                <p>After days of sailing, a team of courageous adventurers in search of riches and
+                                    treasure are about to encounter the unknown.</p>
+                            </div> <!-- Correction: fermer la balise div -->
+                        </div>
 
-            </div>
+                    </div>
+                    <div class="container">
+                        <div class="illustration_operator">
+                            <img src="/img/maritime_traffic_surveillance.jpg"
+                                alt="Illustration of maritime traffic surveillance" height="500px" style="width: 100%;">
+                        </div>
+                        <div class="content_operator">
+                            <p>Operators, also known as "Vessel Traffic Controllers", are people who
+                                represent
+                                the port and manage marine traffic. They use a chart to monitor the
+                                movement
+                                of ships in the port, and see what goods are brought into the port. They
+                                also use charts to keep track of all the elements in the port, such as the agents
+                                engaged
+                                engaged and which ships are active.</p>
+                            <p>Operators are highly qualified professionals who work closely with
+                                with ship captains and port agents to ensure that maritime traffic flows safely and
+                                efficiently.</p> <!-- Correction: fermer la balise p -->
+                            <a href="/operator/registration/sign_in_operator.html" class="become-btn">Become an
+                                operator</a>
+                        </div> <!-- Correction: fermer la balise div -->
+                    </div>
+                </section>
+                <!-- For Captain -->
+                <section id="captain">
+                    <h2>The Captains</h2>
+                    <div class="container">
+                        <div class="content_captain">
+                            <p>The captains or shipmasters are the persons responsible for navigation and safety on the
+                                safety
+                                a vessel. At Navigo Pro, we provide captains with the tools they need to
+                                necessary to
+                                control their vessel remotely and have real-time access to information from
+                                all
+                                sensors on board.</p>
+                            <p>Our advanced surveillance systems allow captains to monitor
+                                the location of
+                                weather, speed and other important parameters in real time. Captains
+                                captains can also view images from the ship's surveillance cameras
+                                and
+                                receive alerts in the event of danger or emergency.</p>
+                            <p>With Navigo Pro, captains have a complete overview of their ship and can
+                                make
+                                decisions to maintain the safety of both crew and vessel.</p>
+                            <a href="/captain/registration/sign_in_captain.html" class="become-btn">Become a
+                                captain</a>
+                        </div>
+                        <div class="illustration_captain">
+                            <img src="/img/captain.jpg" alt="Illustration of a ship's captain" height="500px"
+                                style="width: 100%;">
+                        </div>
+                    </div>
+                </section>
 
-        </div>
-        <div class="solution">
+                <section>
+                    <h2>Features for Captains</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <div class="icon">
+                                <img src="/img/Location.png" alt="Location icon">
+                            </div>
+                            <div class="feature-info">
+                                <h3>Real-time localization</h3>
+                                <p>Captains can monitor the exact position of their vessel in real time,
+                                    thanks to
+                                    precise positioning system.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="/img/meteo.png" alt="Icône de météo">
+                            </div>
+                            <div class="feature-info">
+                                <h3>Meteorological data</h3>
+                                <p>Captains can obtain accurate weather information for their current location and
+                                    their current location and destination, so they can make informed weather
+                                    navigation
+                                    decisions.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="/img/alerte.png" alt="Icône d'alerte">
+                            </div>
+                            <div class="feature-info">
+                                <h3>Real-time alerts</h3>
+                                <p>Captains receive real-time alerts in the event of danger or emergency,
+                                    to enable
+                                    enable them to react quickly and effectively.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
 
-        </div>
-        <div class="conclusion">
+                <!--For Port agents-->
+                <section id="port_agents">
+                    <h2>The Navigo Pro port agents</h2>
+                    <div class="container">
+                        <div class="illustration_agent">
+                            <img src="/img/Ports_agent.jpg" alt="Illustration of a port agent" height="500px"
+                                style="width: 100%;">
+                        </div>
+
+                        <div class="content_agent">
+                            <p>Port agents in Navigo Pro have the same function as conventional agents, but with
+                                their their job is to register all boats entering and leaving a given port via a
+                                a form. </p>
+                            <p> form is linked to a port already registered on the site, enabling more
+                                efficient
+                                efficient management of information.</p>
+
+                            <a href="/agent/registration/sign_in_agent.html" class="become-btn">Become an agent</a>
+                        </div>
+                    </div>
+
+                    <h2>Features for port agent</h2>
+                    <ul>
+                        <li>Recording of incoming and outgoing boat information</li>
+                        <li>Coordination with other port agents to facilitate port operations</li>
+                        <li>Communication with port authorities to ensure compliance with rules and
+                            regulations</li>
+                    </ul>
+                </section>
+        </section>
+
 
         </div>
     </main>
     <footer>
-
+        <p>© 2023 Navigo Pro. All rights reserved.</p>
     </footer>
 </body>
 
