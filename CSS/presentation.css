@@ -1,0 +1,10 @@
+@import url('header.css');
+@import url('font.css');
+
+body {
+    background-image: url("../RESSOURCES/PICTURES/BACKGROUNDS/old_paper_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Pirates;
+    text-align: center;
+}

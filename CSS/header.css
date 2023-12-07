@@ -1,0 +1,42 @@
+header {
+    background: none;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0;
+}
+
+.logo .title_site {
+    height: 40px;
+}
+
+.header_nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header_nav ul li {
+    margin-right: 30px;
+
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+}
+
+.part_right {
+    float: right;
+    display: flex;
+    padding: 0;
+}
+
+.part_right div {
+    margin-left: 20px;
+}

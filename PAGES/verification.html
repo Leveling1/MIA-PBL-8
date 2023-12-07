@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/verification.css">
+    <title>S'inscrire</title>
+</head>
+
+<body>
+    <!-- Contenaire principale -->
+    <div class="container">
+        <!-- Contenaire gauche -->
+        <div class="left_container">
+
+            <a class="return" href="" onclick="history.go(-1);">
+                <div class="round">
+                    <span class="other_span"></span>
+                    <span class="other_span"></span>
+                    <span class="other_span"></span>
+                    <span class="other_span"></span>
+                </div>
+            </a>
+
+            <div>
+                <img src="/Ressources/PICTURES/cave_entrance.png" class="img_container">
+            </div>
+            <p class="text_title">S'identifier</p>
+            <small class="text_motivation">Rejoignez notre plateforme
+                et découvrez les offres des entreprises qui vous correspondent !</small>
+        </div>
+
+        <!-- Contenaire droit -->
+        <div class="right_container_login">
+
+            <div class="header_text">
+                <h2>Salut!</h2>
+                <p>Nous sommes heureux de vous retrouver.</p>
+            </div>
+            <div class="from_container">
+                <form action="#">
+                    <div class="error_text"></div>
+                    <div class="txt_field">
+                        <input type="text" name="user_name" required>
+                        <span></span>
+                        <label><b>Nom d'utilisateur</b></label>
+                    </div>
+                    <div class="txt_field">
+                        <input type="password" name="password" required>
+                        <span></span>
+                        <label><b>Mots de passe</b></label>
+                    </div>
+                    <input type="submit" value="Connexion" name="submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="/js/verification.js"></script>
+</body>
+
+</html>
