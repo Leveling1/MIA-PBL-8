@@ -18,6 +18,8 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #flip {
