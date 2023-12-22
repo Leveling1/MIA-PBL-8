@@ -1,0 +1,118 @@
+
+/* Here is the custom.css stylesheet
+    A stylesheet for all the pages of our website
+*/
+
+
+/* 
+We create a new font 'Pirates' for our pages 
+https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
+*/
+
+@font-face {
+    font-family: Pirates;
+    /*Link to the downloaded .ttf .We previously downloaded the file on DAFONT 
+    (https://www.dafont.com)*/
+    src: url("../RESSOURCES/POLICES/Pirates.ttf");
+}
+
+
+body {
+    background-image: url("../RESSOURCES/PICTURES/BACKGROUNDS/old_paper_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*Here is the calling of our new font-family*/
+    font-family: Pirates;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+}
+
+p {
+    font-style: italic;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+}
+
+
+/*Flex configuration for 3 columns */
+
+.flex-container {
+    /*Activate Flex display mode*/
+    display: flex;
+    /*This parameter allow columns display in Flex mode */
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+/* " >* " means for this class and ALL childs*/
+
+.flex-container>* {
+    padding: 10px;
+    flex: 1 100%;
+    margin: 10px;
+}
+
+.column_1 {
+    /*gradient color*/
+    background-image: linear-gradient(moccasin, white);
+    border-radius: 5px;
+    border: 1px #000000 dotted;
+}
+
+.column_2 {
+    /*gradient color*/
+    background-image: linear-gradient(mediumseagreen, white);
+    border-radius: 5px;
+    border: 1px #000000 dotted;
+}
+
+.column_3 {
+    /*gradient color*/
+    background-image: linear-gradient(royalblue, white);
+    border-radius: 5px;
+    border: 1px #000000 dotted;
+}
+
+
+/* Create a "link" template like a button (with transition)*/
+
+.link {
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
+}
+
+.link:hover {
+    opacity: 1;
+}
+.container {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .container.animate-out {
+    opacity: 0;
+  }
+
+
+/* for display over 768px width */
+
+@media all and (min-width: 768px) {
+    /* flex parameter for all columns */
+    .column {
+        flex: 1 auto;
+    }
+}
+

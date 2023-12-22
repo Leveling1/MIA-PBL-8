@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Ressources/img/arbre.webp);
+    background-size: cover;
+    /*Here is the calling of our new font-family*/
+    margin-left: 40px;
+    font-family: Arial, sans-serif;
+    /* Définit la police de caractères du texte */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-weight: unset;
+    /*text-shadow: 2px 2px 2px white, -2px -2px 2px white;*/
+    color: white;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-left: 10px;
+
+    position: relative;
+    top: 4px;
+    /* Déplace l'image de 50 pixels vers le bas */
+    right: 10px;
+    /* Déplace l'image de 20 pixels vers la droite */
+
+}
+
+.contenu {
+    margin-right: 620px;
+    position: relative;
+    top: 130px;
+    /* Déplace l'image de 50 pixels vers le bas */
+
+
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.titre {
+    position: relative;
+    margin-left: 550px;
+    text-align: center;
+    border-radius: 5px;
+    /* Arrondit les coins de la boîte */
+    font-size: 16px;
+    /* Définit la taille de police du texte */
+    font-family: Arial, sans-serif;
+    /* Définit la police de caractères du texte */
+    font-weight: bold;
+}
+
+
+.container.animate-in {
+    opacity: 1;
+}
