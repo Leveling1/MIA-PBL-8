@@ -28,7 +28,7 @@ body {
 
 #hero-mobile {
     display: none;
-    background: url("/Ressources/img/full-illustration.png") no-repeat center bottom/cover;
+    background: url("../Ressources/img/full-illustration.png") no-repeat center bottom/cover;
     height: 320px;
 }
 
@@ -61,7 +61,7 @@ p {
 }
 
 .layer-bg {
-    background-image: url("/Ressources/img/Foret.jpeg");
+    background-image: url("../Ressources/img/Foret.jpeg");
     background-size: cover;
     /* Ajuste l'image à la taille du conteneur */
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ p {
 .layer-1 {
     /*background-image: url("/Ressources/Pictures/russian_dolls_statues.png");
     background-position: left bottom;*/
-    background-image: url("/Ressources/Pictures/russian_dolls_statues.png");
+    background-image: url("../Ressources/Pictures/russian_dolls_statues.png");
     background-position: left bottom;
     background-size: cover;
     margin-left: 200px;
@@ -81,7 +81,7 @@ p {
 }
 
 .layer-3 {
-    background-image: url("/Ressources/img/personnage.png");
+    background-image: url("../Ressources/img/personnage.png");
     background-position: right bottom;
 }
 

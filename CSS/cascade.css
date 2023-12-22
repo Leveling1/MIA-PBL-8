@@ -28,7 +28,7 @@ body {
 
 #hero-mobile {
     display: none;
-    background: url("/Ressources/img/full-illustration.png") no-repeat center bottom/cover;
+    background: url("../Ressources/img/full-illustration.png") no-repeat center bottom/cover;
     height: 320px;
 }
 
@@ -61,16 +61,16 @@ p {
 }
 
 .layer-bg {
-    background-image: url("/Ressources/img/background.jpg");
+    background-image: url("../Ressources/img/background.jpg");
 }
 
 .layer-1 {
-    background-image: url("/Ressources/img/cascade.png");
+    background-image: url("../Ressources/img/cascade.png");
     background-position: left bottom;
 }
 
 .layer-3 {
-    background-image: url("/Ressources/img/personnage.png");
+    background-image: url("../Ressources/img/personnage.png");
     background-position: right bottom;
 }
 
