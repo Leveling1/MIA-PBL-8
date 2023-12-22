@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Apprentissage</title>
-        
-    </head>
-    <body>
-<h1>It's me again</h1>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/russian.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha3/css/bootstrap.min.css">
+
+    <title>Cascade</title>
+</head>
+
+<body>
+    <div id='hero'>
+        <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
+        <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
+        <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
+        <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
+        <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
+        <div class='layer-4 layer' data-depth='1.00' data-type='parallax'></div>
+    </div>
+    <div id='hero-mobile'></div>
+    <div id='content'>
+        <div class='container'>
+            <section class='first-section'>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <h1>Understanding the basics of CSS : Cascading Styles Sheets</h1>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <p>There are three ways to create CSS :</p>
+                        <p><strong>CSS element selector</strong> : Call HTML element with
+                            his name and style all HTML tags of this type.
+                            Element selectors are denoted with the name
+                            of the HTML element</p>
+                        <img class="representation"
+                            src="https://icam-senart.fr/MIA_02-3_PBL_WEB/TCOWI/img/icones/element.gif" alt="">
+
+                        <p><strong>CSS class selector</strong> : Can be reusable and applied
+                            to many elements. Class selectors are denoted with a
+                            period . followed by the class name.
+                        </p>
+                        <img class="representation"
+                            src="https://icam-senart.fr/MIA_02-3_PBL_WEB/TCOWI/img/icones/class.gif" alt="">
+                        <p><strong>CSS ID selector</strong> : Should be unique and used to style
+                            only a single element. ID selectors are denoted with
+                            a hash sign # followed by the id name
+                        </p>
+                        <img class="representation"
+                            src="https://icam-senart.fr/MIA_02-3_PBL_WEB/TCOWI/img/icones/id.gif" alt="">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="/js/cascade.js"></script>
+
+</body>
+
 </html>
