@@ -13,7 +13,7 @@ During our exploration, we discovered many amazing features of the modern web. I
 * **HTML** to structure our pages
 
 
-**Technologies used**
+*Technologies used*
 
 We used the following technologies for our project:
 
@@ -22,13 +22,13 @@ We used the following technologies for our project:
 * **HTML**
 * **Git** and **GitHub**.
 
-**Challenges encountered**
+*Challenges encountered*
 
 We encountered some interesting challenges during our exploration. In particular, we had to learn how to:
 
 * **Reuse code efficiently**
 * **Finding the right design to apply to our pages.**
 
-**Conclusion**
+*Conclusion*
 
 We hope you enjoyed our trip to the Web Island! We're delighted to have been able to share our discoveries and experiences with you.
