@@ -18,6 +18,8 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #flip {
@@ -48,7 +50,10 @@ body {
 #flip div:last-child div {
     background: #DC143C;
 }
-
+.games {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 @keyframes show {
     0% {
         margin-top: -270px;
