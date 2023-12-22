@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Ressources/img/arbre.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Ressources/img/arbre.webp);
     background-size: cover;
     /*Here is the calling of our new font-family*/
     margin-left: 40px;
@@ -23,7 +23,6 @@ img {
     height: 400px;
     float: right;
     margin-left: 10px;
-
     position: relative;
     top: 4px;
     /* Déplace l'image de 50 pixels vers le bas */
