@@ -14,7 +14,7 @@ continueBtn.onclick = () => {
             if (xhr.status === 200) {
                 let data = xhr.response;
                 if (data == "success") {
-                    location.href = "/presentation.html";
+                    location.href = "/index.html";
                 } else {
                     errorText.textContent = data;
                     errorText.style.display = "block";
