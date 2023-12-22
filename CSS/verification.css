@@ -1,5 +1,5 @@
-@import url('/CSS/font.css');
-@import url('/CSS/error_text.css');
+@import url('font.css');
+@import url('error_text.css');
 
 body {
     margin: 0;
