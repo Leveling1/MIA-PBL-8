@@ -7,7 +7,7 @@ document.querySelector('form').addEventListener('submit', function (event) {
 
     if (userName === 'Nexus fusion 2') {
         if (password === 'nexusfusion') {
-            window.location.href = '/home.html'; // Redirige vers home.html
+            window.location.href = '../home.html'; // Redirige vers home.html
         } else {
             errorText.textContent = 'Erreur : Le mot de passe est incorrect.';
             errorText.style.display = "block";
