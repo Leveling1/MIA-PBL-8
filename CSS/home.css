@@ -79,7 +79,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     color: #fff;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -93,15 +93,13 @@ nav a:hover {
     font-size: 20px;
     text-align: center;
     /*margin: 20px;*/
-    margin: 20px 250px 20px 250px;
+    margin: 20 auto;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 100vh;*/
-    /* Ajustez cette valeur en fonction de vos besoins */
 }
 
 .cta {
@@ -109,7 +107,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 200px;
-    /* Ajustez cette valeur en fonction de vos besoins */
     height: 50px;
     border: 1px solid;
     background: var(--our_main_color);
@@ -120,7 +117,6 @@ nav a:hover {
     cursor: pointer;
     outline: none;
     text-decoration: none;
-    /* Pour supprimer le soulignement du lien */
 }
 
 .cta:hover {
