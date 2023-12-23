@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Roboto';
     text-align: center;
+    margin : 0px;
 }
 
 h1 {
@@ -37,9 +38,11 @@ p {
 .flex-container>* {
     padding: 10px;
     flex: 1 100%;
+    
+}
+.column{
     margin: 10px;
 }
-
 .column_1 {
     background-image: linear-gradient(moccasin, white);
     border-radius: 5px;
