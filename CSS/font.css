@@ -2,3 +2,13 @@
     font-family: Pirates;
     src: url("../Ressources/FONTS/Pirates.ttf");
 }
+
+@font-face {
+    font-family: karen;
+    src: url("../Ressources/FONTS/karen.otf");
+}
+
+@font-face {
+    font-family: vercetti;
+    src: url("../Ressources/FONTS/Vercetti-Regular.ttf");
+}

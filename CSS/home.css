@@ -1,3 +1,5 @@
+@import url("font.css");
+
 /* Reset des styles par défaut */
 * {
     margin: 0;
@@ -7,7 +9,7 @@
 
 /* Styles généraux */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'poppins';
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -27,6 +29,7 @@ header {
 }
 
 header h1 {
+    font-family: vercetti;
     margin-right: auto;
     color: white;
 }

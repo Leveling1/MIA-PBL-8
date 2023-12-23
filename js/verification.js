@@ -1,29 +1,19 @@
-const form = document.querySelector(".from_container form"),
-    continueBtn = form.querySelector("input[type='submit']"),
-    errorText = form.querySelector(".error_text");
+document.querySelector('form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Empêche le rechargement de la page
 
+    var userName = document.querySelector('input[name="user_name"]').value;
+    var password = document.querySelector('input[name="password"]').value;
+    var errorText = document.querySelector('.error_text');
 
-form.onsubmit = (e) => {
-    e.preventDefault();
-}
-continueBtn.onclick = () => {
-    let xhr = new XMLHttpRequest();
-    xhr.open("POST", "../php/verification.php", true);
-    xhr.onload = () => {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                let data = xhr.response;
-                if (data == "success") {
-                    location.href = "../home.html";
-                } else {
-                    errorText.textContent = data;
-                    errorText.style.display = "block";
-
-                }
-            }
+    if (userName === 'Nexus fusion 2') {
+        if (password === 'nexusfusion') {
+            window.location.href = '/home.html'; // Redirige vers home.html
+        } else {
+            errorText.textContent = 'Erreur : Le mot de passe est incorrect.';
+            errorText.style.display = "block";
         }
-
+    } else {
+        errorText.textContent = 'Erreur : Le nom d\'utilisateur est incorrect.';
+        errorText.style.display = "block";
     }
-    let formData = new FormData(form);
-    xhr.send(formData);
-}
+});
