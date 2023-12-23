@@ -1,11 +1,11 @@
 @import url('header.css');
-@import url('font.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body {
     background-image: url("../Ressources/Pictures/Background/old_paper_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Pirates;
+    font-family: 'Roboto';
     text-align: center;
 }
 
