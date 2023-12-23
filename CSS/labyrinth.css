@@ -25,7 +25,15 @@ html {
         font-size: 0.8vh;
     }
 }
+p {
+    z-index: 2;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
 
+}
 body {
     margin: 0;
     text-align: center;
