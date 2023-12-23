@@ -29,7 +29,6 @@ header {
     text-decoration: none;
     transition: color 0.3s;
     font-size: 20px;
-    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
 }
 
 .part_right {
