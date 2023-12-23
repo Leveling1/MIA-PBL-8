@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @import url('header.css');
 
 body {
@@ -5,7 +6,7 @@ body {
     background-size: cover;
     /*Here is the calling of our new font-family*/
     margin-left: 40px;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto';
     /* Définit la police de caractères du texte */
 }
 
@@ -59,6 +60,25 @@ img {
     font-family: Arial, sans-serif;
     /* Définit la police de caractères du texte */
     font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+a:focus,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: #e73700;
 }
 
 
