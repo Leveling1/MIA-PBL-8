@@ -1,5 +1,5 @@
 @import url("font.css");
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 /* Reset des styles par défaut */
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 /* Styles généraux */
 body {
-    font-family: 'poppins';
+    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -128,4 +128,23 @@ nav a:hover {
     transition: .5s;
     color: white;
     background: green;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+a:focus,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: #e73700;
 }
