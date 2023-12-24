@@ -2,7 +2,7 @@
 @import url('header.css');
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Ressources/img/arbre.webp);
+    background-image:url(../Ressources/img/arbre.jpg);
     background-size: cover;
     /*Here is the calling of our new font-family*/
     margin-left: 0px;
